@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version="0.0.3"
+version="0.0.4"
 
 # Apple command-line tools
 
@@ -35,10 +35,10 @@ gem install cocoapods
 
 # cli tools
 binaries=(
-	git
+    git
+    bash-completion
+    heroku-toolbelt
 	python3
-	postgres
-	heroku-toolbelt
 	caskroom/cask/brew-cask
 )
 
@@ -49,16 +49,17 @@ brew tap caskroom/versions
 # Apps
 
 apps=(
+    adobe-creative-cloud
 	bittorrent-sync
 	dropbox
-	flashlight
 	firefox
 	google-chrome
 	hipchat
 	instacast
 	istat-menus
 	kaleidoscope
-	parallels-desktop
+    parallels-desktop
+    postgres
 	skype
 	sublime-text3
 	tower

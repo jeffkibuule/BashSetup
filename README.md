@@ -1,3 +1,3 @@
 # Bash setup script for OS X
 
-Installs ruby, rails, and a decent set of development apps
+Installs ruby, rails, and my favorite set of cli and OS X apps
