@@ -17,6 +17,7 @@ if test ! $(which brew); then
 fi
 
 brew update
+brew upgrade
 
 # rvm/ruby
 
@@ -38,7 +39,9 @@ binaries=(
     git
     bash-completion
     heroku-toolbelt
+    postgresql
 	python3
+	ssh-copy-id
 	caskroom/cask/brew-cask
 )
 
