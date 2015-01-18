@@ -26,8 +26,8 @@ echo "Installing rvm and latest stable ruby..."
 
 # rails
 
-echo "Installing ruby on rails..."
-gem install rails
+echo "Installing ruby on rails (skipping docs)..."
+gem install rails --no-ri --no-rdoc
 
 # cocoapods
 
